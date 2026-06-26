@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alarme: Alarm & Wake Support</title>
+  <meta name="description" content="Support page for Alarme: Alarm & Wake. Get help with alarms, subscriptions, scan tasks, notifications, and app settings.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f7f8;
+      --card: #ffffff;
+      --text: #171217;
+      --muted: #6f6a72;
+      --line: #e4e1e6;
+      --accent: #f1a83a;
+      --accent-dark: #171217;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0d0b0f;
+        --card: #17141a;
+        --text: #f6f2f7;
+        --muted: #b3adb7;
+        --line: #2c2830;
+        --accent-dark: #f6f2f7;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0;
+    }
+
+    .hero {
+      padding: 32px;
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: var(--card);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 18px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: color-mix(in srgb, var(--accent) 18%, transparent);
+      color: var(--accent-dark);
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(36px, 7vw, 64px);
+      line-height: 0.98;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 24px;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 14px;
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    a {
+      color: var(--text);
+      font-weight: 700;
+      text-decoration-color: var(--accent);
+      text-decoration-thickness: 2px;
+      text-underline-offset: 3px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+
+    .card {
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: var(--card);
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    .button {
+      display: inline-flex;
+      min-height: 48px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 8px;
+      padding: 0 18px;
+      border-radius: 999px;
+      background: var(--text);
+      color: var(--bg);
+      text-decoration: none;
+      font-weight: 800;
+    }
+
+    .footer {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    @media (max-width: 720px) {
+      main {
+        width: min(100% - 24px, 920px);
+        padding: 24px 0;
+      }
+
+      .hero,
+      .card {
+        padding: 22px;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div class="badge">Alarme Support</div>
+      <h1>Alarme: Alarm & Wake</h1>
+      <p>Need help with alarms, scan tasks, premium access, notifications, or app settings? Send us the details and we will help you get back to stronger mornings.</p>
+      <a class="button" href="mailto:hasanberkecakmak@gmail.com?subject=Alarme%20Support%20Request">Contact Support</a>
+    </section>
+
+    <section class="grid" aria-label="Support information">
+      <div class="card">
+        <h2>Support Contact</h2>
+        <p>Email us at <a href="mailto:hasanberkecakmak@gmail.com">hasanberkecakmak@gmail.com</a>.</p>
+        <p>Typical response time: 1-3 business days.</p>
+      </div>
+
+      <div class="card">
+        <h2>What To Include</h2>
+        <ul>
+          <li>Your device model and iOS version.</li>
+          <li>Your Alarme app version.</li>
+          <li>The alarm time and selected wake-up task.</li>
+          <li>A screenshot or screen recording if possible.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Common Help</h2>
+        <ul>
+          <li>Make sure notification and alarm permissions are enabled.</li>
+          <li>For scan tasks, allow camera access and scan the object in good light.</li>
+          <li>For premium issues, use Restore Purchases in the app before contacting support.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Legal</h2>
+        <p>Review our privacy and terms pages for details about subscriptions, permissions, and data handling.</p>
+        <p><a href="./privacy-policy.html">Privacy Policy</a> · <a href="./terms-of-use.html">Terms of Use</a></p>
+      </div>
+    </section>
+
+    <p class="footer">Last updated: June 25, 2026 · Alarme: Alarm & Wake is operated by Hasan Berke Cakmak.</p>
+  </main>
+</body>
+</html>
